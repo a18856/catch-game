@@ -1,0 +1,3 @@
+bg music
+catch noise
+sound noise
