@@ -30,8 +30,8 @@ class ball {
         this.x += this.xVelocity;
       }
       if (this.xVelocity < 0) {
-        this.xVelocity = this.xVelocity+(0.0055*this.rand);  //slows down horizontal speed if the xVelocity is negative
-        this.x += this.xVelocity;
+        this.xVelocity = this.xVelocity+(0.0055*this.rand);  //slows down horizontal speed if xVelocity is negative
+        this.x += this.xVelocity;         //^increasing this number makes the balls horizontal speed slow down faster
       }
       if (this.x > width) {
         this.xVelocity *=-1;  //bounces off of the right wall
