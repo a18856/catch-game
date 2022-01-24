@@ -1,0 +1,5 @@
+accel = 0
+
+class ball
+    constructor(x,y,yVelocity,xVelocity)
+    
