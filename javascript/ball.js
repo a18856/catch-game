@@ -14,8 +14,8 @@ class ball {
     draw(){
       fill(100);
       circle(this.x,this.y,25);
-      text("xVelocity: "+ this.xVelocity%1,50,50,200,100)
-      text("temp: "+ this.temp,50,60,200,100)
+      console.log("xVelocity: "+ this.xVelocity%1,50,50,200,100)
+      console.log("temp: "+ this.temp,50,60,200,100)
     }
     
     move(){
